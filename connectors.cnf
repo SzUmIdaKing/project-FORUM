@@ -1,0 +1,7 @@
+#This is a config file to connect to database 
+[client]
+
+host=projektdb.chit4dyq2s1j.us-east-1.rds.amazonaws.com
+user=root
+password=ciscocisco123
+database=projektDB

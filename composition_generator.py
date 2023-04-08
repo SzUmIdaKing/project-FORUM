@@ -90,12 +90,7 @@ def id_composition(n):
 
 
 if __name__ == '__main__':
-    mydb = mysql.connector.connect(
-        host="projektdb.chit4dyq2s1j.us-east-1.rds.amazonaws.com",
-        user="root",
-        password="ciscocisco123",
-        database="projektDB"
-    )
+    mydb = mysql.connector.connect(option_files = "./connectors.cnf")
     mycursor = mydb.cursor()
 
     ingredients_list = []
